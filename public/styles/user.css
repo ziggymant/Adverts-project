@@ -1,0 +1,62 @@
+.user-content {
+	width: 100%;
+
+}
+
+.user-content li {
+	text-decoration: none;
+	text-align: left;
+}
+
+.drop:hover .drop-menu {
+	display: block;
+}
+
+
+.user-menu{
+	height: 40px;
+    margin-right: auto;
+    margin-left: auto
+}
+.user-menu ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 50px;
+
+}
+
+.user-menu ul li {
+
+}
+.user-btn {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    background-color: #2ecc71;
+    height: 40px;
+    border: 1px solid white;
+    cursor: pointer; 
+    padding-top: 5px;
+}
+
+.user-btn:hover {
+    background-color: #7dc780;
+}
+
+.user-menu a {
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.single-ad a img {
+    height: 30px;
+    float: right;
+
+}
+
+.my-messages {
+    border: 1px solid white;
+    padding: 2px;
+}

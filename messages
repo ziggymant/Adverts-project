@@ -1,0 +1,10 @@
+CREATE TABLE messages (
+id INT(15) NOT NULL auto_increment,
+to_id VARCHAR(45) NOT NULL,
+from_id VARCHAR(45) NOT NULL,
+title VARCHAR(60) NOT NULL,
+body text NOT NULL,
+created datetime NOT NULL,
+is_read bit(1),
+author VARCHAR(45) NOT NULL,
+PRIMARY KEY (id));
